@@ -1,0 +1,209 @@
+[
+  {
+    "file": "encounters-week-1.csv",
+    "rows": 200,
+    "expectations": 12,
+    "passed": 5,
+    "success_percent": 41.66666666666667,
+    "checks": [
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "encounter_id",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_unique",
+        "column": "encounter_id",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "mrn",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "event_date",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_between",
+        "column": "event_date",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "zip",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_match_regex",
+        "column": "zip",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "age",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_between",
+        "column": "age",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_be_in_set",
+        "column": "sex",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "department",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_be_in_set",
+        "column": "department",
+        "success": true
+      }
+    ]
+  },
+  {
+    "file": "encounters-week-2.csv",
+    "rows": 200,
+    "expectations": 12,
+    "passed": 5,
+    "success_percent": 41.66666666666667,
+    "checks": [
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "encounter_id",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_unique",
+        "column": "encounter_id",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "mrn",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "event_date",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_between",
+        "column": "event_date",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "zip",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_match_regex",
+        "column": "zip",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "age",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_between",
+        "column": "age",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_be_in_set",
+        "column": "sex",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "department",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_be_in_set",
+        "column": "department",
+        "success": true
+      }
+    ]
+  },
+  {
+    "file": "encounters-week-3.csv",
+    "rows": 200,
+    "expectations": 12,
+    "passed": 8,
+    "success_percent": 66.66666666666666,
+    "checks": [
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "encounter_id",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_unique",
+        "column": "encounter_id",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "mrn",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "event_date",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_between",
+        "column": "event_date",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "zip",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_match_regex",
+        "column": "zip",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "age",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_between",
+        "column": "age",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_be_in_set",
+        "column": "sex",
+        "success": true
+      },
+      {
+        "expectation": "expect_column_values_to_not_be_null",
+        "column": "department",
+        "success": false
+      },
+      {
+        "expectation": "expect_column_values_to_be_in_set",
+        "column": "department",
+        "success": true
+      }
+    ]
+  }
+]
